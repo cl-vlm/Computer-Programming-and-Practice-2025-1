@@ -11,6 +11,8 @@
 
 /* To Do: 반환 타입이 int이고 이름이 value이고, 매개변수가 int 타입 하나인 함수를 선언해보세요 */
 
+int value(int number);
+
 int main() {
 	return value(5);
 }
@@ -22,7 +24,6 @@ int main() {
  *
  * value 함수는 int 타입 매개 변수의 값을 그대로 반환한다.
  */
-int value(int number);
 
 int value(int x) {
 	return x;
