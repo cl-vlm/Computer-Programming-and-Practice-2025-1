@@ -22,6 +22,8 @@ int main() {
  *
  * value 함수는 int 타입 매개 변수의 값을 그대로 반환한다.
  */
+int value(int number);
+
 int value(int x) {
 	return x;
 }
